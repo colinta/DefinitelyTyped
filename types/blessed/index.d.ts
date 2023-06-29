@@ -3486,3 +3486,8 @@ export function parseTags(text: string, screen?: Widgets.Screen): string;
 export const colors: {
     match(hexColor: string): string;
 };
+
+export const unicode: {
+  strWidth: (text: string) => number
+  charWidth: (text: string) => number
+}
